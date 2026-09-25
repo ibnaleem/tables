@@ -1,0 +1,49 @@
+# Czech (vanilla/QWERTZ), Windows "Czech" to US. This is the directio --keyboard-layout-mapping takes:
+#
+#   hashcat -m 13721 hashes.txt --keyboard-layout-mapping tables/layouts/cz_qwertz.table ...
+#
+# This layout is QWERTZ (Y and Z swapped) and puts the digits BEHIND Shift: the unshifted digit-row
+# keys type a Czech letter with a caron/acute instead (ě š č ř ž ý á í é), Shift gets you the digit.
+# As with the Polish typewriter table, that only covers lowercase — the uppercase forms of these
+# letters need Caps Lock, not Shift, so they have no single-key entry here.
+
++	1
+1	!
+ě	2
+2	@
+š	3
+3	#
+č	4
+4	$
+ř	5
+5	%
+ž	6
+6	^
+ý	7
+7	&
+á	8
+8	*
+í	9
+9	(
+é	0
+0	)
+=	-
+%	_
+z	y
+Z	Y
+y	z
+Y	Z
+ú	[
+/	{
+)	]
+(	}
+ů	;
+"	:
+§	'
+!	"
+'	|
+?	
+:	>
+-	/
+_	?
+;	`
