@@ -1,0 +1,41 @@
+# Unlike the Polish "programmer's" layout, this one is QWERTZ (Y and Z are swapped) and most Polish
+# diacritics sit directly on their own key rather than behind AltGr — but only as LOWERCASE. Their
+# uppercase forms are produced by a dead-key sequence (mostly the acute accent, ż/Ż by the dot-above
+# accent) rather than a plain Shift, so they are left out of this simple one-key table:
+# Ą Ć Ę Ń Ó Ś Ź Ż have no single-key entry here.
+#
+# Keys that produce the same character in both layouts are left out. They are what the mapping does
+# not change, and listing them says nothing.
+# 
+# The `--keyboard-layout-mapping` parameter takes the following format:
+#   hashcat -m 13721 hashes.txt --keyboard-layout-mapping tables/layouts/pl_qwertz.table
+
+z	y
+Z	Y
+y	z
+Y	Z
+"	@
+¤	$
+&	^
+/	&
+(	*
+)	(
+=	)
++	-
+?	_
+'	=
+*	+
+;	
+:	>
+-	/
+_	?
+ż	[
+ń	{
+ś	]
+ć	}
+ł	;
+Ł	:
+ą	'
+ę	"
+ó	\
+ź	|

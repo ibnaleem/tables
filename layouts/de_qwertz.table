@@ -1,0 +1,36 @@
+# German QWERTZ (Windows "German" / KBDGR.DLL) to US. This is the directio --keyboard-layout-mapping takes:
+#
+#   hashcat -m 13721 hashes.txt --keyboard-layout-mapping tables/layouts/de_qwertz.table ...
+# Y and Z are swapped, as on every QWERTZ layout. Unlike the Czech and Polish typewriter layouts,
+# ä ö ü ß here DO have proper uppercase pairs on plain Shift (Ä Ö Ü, and the capital ẞ sits behind
+# AltGr so it is not covered here), so those four are complete.
+#
+
+"	@
+§	#
+&	^
+/	&
+(	*
+)	(
+=	)
+ß	-
+?	_
+z	y
+Z	Y
+y	z
+Y	Z
+ü	[
+Ü	{
++	]
+*	}
+ö	;
+Ö	:
+ä	'
+Ä	"
+°	~
+#	\
+'	|
+;	
+:	>
+-	/
+_	? 
