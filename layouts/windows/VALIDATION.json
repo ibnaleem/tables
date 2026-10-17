@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "tables": 488,
+  "catalog_entries": 218,
+  "physical_key_checks": 41228,
+  "composition_pair_checks": 23092,
+  "independent_regression_examples": 18,
+  "native_tables_checked": 488,
+  "native_input_tokens": 51850,
+  "native_output_candidates": 53291,
+  "regeneration": "exact",
+  "hashcat_commit": "bb52c06b9e4ac7439b4415b69d04e0b72e1192f9",
+  "native_method": "Unmodified Hashcat table_load and table_tokenize through included C probe; independent Python candidate expansion compared with native token/bucket expansion.",
+  "full_cli": "Could not initialize: get_exec_path() failed.",
+  "gpu_tested": false,
+  "live_windows_driver_tested": false,
+  "source_retrieval_date": "2026-10-07"
+}
